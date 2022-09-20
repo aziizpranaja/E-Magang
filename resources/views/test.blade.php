@@ -28,9 +28,9 @@ body, html {
   padding: 16px;
 }
 .kontener
-{ 
- position: relative; 
- overflow: hidden; 
+{
+ position: relative;
+ overflow: hidden;
  box-sizing: border-box;
  margin:80px auto;
  width: 1100px;
@@ -39,15 +39,15 @@ body, html {
 .slider img
 {
  width: 1100px;
- height: 450px; 
+ height: 450px;
  float: left;
 }
 .slider
-{ 
- position: absolute; 
- width:3900px; 
- 
- 
+{
+ position: absolute;
+ width:3900px;
+
+
  animation-name:slider;
  animation-duration:16s;
  animation-timing-function: ease-in-out;
@@ -67,188 +67,188 @@ body, html {
 }
 .slider:hover
 {
- -webkit-animation-play-state:paused; 
- -moz-animation-play-state:paused; 
- -o-animation-play-state:paused; 
+ -webkit-animation-play-state:paused;
+ -moz-animation-play-state:paused;
+ -o-animation-play-state:paused;
  animation-play-state:paused;
 }
 
 .kontener:after
 {
- font-size: 150px; 
- position: absolute; 
- z-index: 12; 
- color: rgba(255,255,255, 0); 
- left: 300px; top: 80px; 
- -webkit-transition: 1s all ease-in-out; 
- -moz-transition: 1s all ease-in-out; 
- transition: 0s all ease-in-out; 
+ font-size: 150px;
+ position: absolute;
+ z-index: 12;
+ color: rgba(255,255,255, 0);
+ left: 300px; top: 80px;
+ -webkit-transition: 1s all ease-in-out;
+ -moz-transition: 1s all ease-in-out;
+ transition: 0s all ease-in-out;
 }
 .kontener:hover:after
 {
     color: rgba(255,255,255, 0.6);
 }
-@-moz-keyframes slider {     
+@-moz-keyframes slider {
  0% {
- left: 0; opacity: 0; 
- }     
- 2% {
- opacity: 1; 
- }     
- 20% {
- left: 0; opacity: 1; 
- }     
- 21% {
- opacity: 0; 
- }     
- 24% {
- opacity: 0; 
- }     
- 25% {
- left: -1100px; opacity: 1; 
- }       
- 45% {
- left: -1100px; opacity: 1; 
- }     
- 46% {
- opacity: 0; 
- }     
- 48% {
- opacity: 0; 
- }     
- 50% {
- left: -2200px; opacity: 1; 
- }     
- 70% {
- left: -2200px; opacity: 1; 
- }     
- 72% {
- opacity: 0; 
- }     
- 74% {
- opacity: 0; 
- }    
- 75% {
- left: -3300px; opacity: 1; 
- }   
- 95% {
- left: -3300px; opacity: 1; 
- }   
- 97% { 
- left: -3300px; opacity: 0;
- }   
- 100% {
- left: 0; opacity: 0; 
+ left: 0; opacity: 0;
  }
-} 
- 
-@-webkit-keyframes slider {     
- 0% {
- left: 0; opacity: 0; 
- }     
  2% {
- opacity: 1; 
- }     
- 20% {
- left: 0; opacity: 1; 
- }     
- 21% {
- opacity: 0; 
- }     
- 24% {
- opacity: 0; 
- }     
- 25% {
- left: -1100px; opacity: 1; 
- }       
- 45% {
- left: -1100px; opacity: 1; 
- }     
- 46% {
- opacity: 0; 
- }     
- 48% {
- opacity: 0; 
- }     
- 50% {
- left: -2200px; opacity: 1; 
- }     
- 70% {
- left: -2200px; opacity: 1; 
- }     
- 72% {
- opacity: 0; 
- }     
- 74% {
- opacity: 0; 
- }    
- 75% {
- left: -3300px; opacity: 1; 
- }   
- 95% {
- left: -3300px; opacity: 1; 
- }   
- 97% { 
- left: -3300px; opacity: 0;
- }   
- 100% {
- left: 0; opacity: 0; 
+ opacity: 1;
  }
-} 
- 
- 
-@keyframes slider {     
- 0% {
- left: 0; opacity: 0; 
- }     
- 2% {
- opacity: 1; 
- }     
  20% {
- left: 0; opacity: 1; 
- }     
+ left: 0; opacity: 1;
+ }
  21% {
- opacity: 0; 
- }     
+ opacity: 0;
+ }
  24% {
- opacity: 0; 
- }     
+ opacity: 0;
+ }
  25% {
- left: -1100px; opacity: 1; 
- }     
+ left: -1100px; opacity: 1;
+ }
  45% {
- left: -1100px; opacity: 1; 
- }     
+ left: -1100px; opacity: 1;
+ }
  46% {
- opacity: 0; 
- }     
+ opacity: 0;
+ }
  48% {
- opacity: 0; 
- }     
+ opacity: 0;
+ }
  50% {
- left: -2200px; opacity: 1; 
- }     
+ left: -2200px; opacity: 1;
+ }
  70% {
- left: -2200px; opacity: 1; 
- }     
+ left: -2200px; opacity: 1;
+ }
  72% {
- opacity: 0; 
- }     
+ opacity: 0;
+ }
  74% {
- opacity: 0; 
- }    
+ opacity: 0;
+ }
  75% {
- left: -3300px; opacity: 1; 
- }   
+ left: -3300px; opacity: 1;
+ }
  95% {
- left: -3300px; opacity: 1; 
- }   
- 97% { 
- left: -3300px; opacity: 0; 
- } 
- 
+ left: -3300px; opacity: 1;
+ }
+ 97% {
+ left: -3300px; opacity: 0;
+ }
  100% {
- left: 0; opacity: 0; 
+ left: 0; opacity: 0;
+ }
+}
+
+@-webkit-keyframes slider {
+ 0% {
+ left: 0; opacity: 0;
+ }
+ 2% {
+ opacity: 1;
+ }
+ 20% {
+ left: 0; opacity: 1;
+ }
+ 21% {
+ opacity: 0;
+ }
+ 24% {
+ opacity: 0;
+ }
+ 25% {
+ left: -1100px; opacity: 1;
+ }
+ 45% {
+ left: -1100px; opacity: 1;
+ }
+ 46% {
+ opacity: 0;
+ }
+ 48% {
+ opacity: 0;
+ }
+ 50% {
+ left: -2200px; opacity: 1;
+ }
+ 70% {
+ left: -2200px; opacity: 1;
+ }
+ 72% {
+ opacity: 0;
+ }
+ 74% {
+ opacity: 0;
+ }
+ 75% {
+ left: -3300px; opacity: 1;
+ }
+ 95% {
+ left: -3300px; opacity: 1;
+ }
+ 97% {
+ left: -3300px; opacity: 0;
+ }
+ 100% {
+ left: 0; opacity: 0;
+ }
+}
+
+
+@keyframes slider {
+ 0% {
+ left: 0; opacity: 0;
+ }
+ 2% {
+ opacity: 1;
+ }
+ 20% {
+ left: 0; opacity: 1;
+ }
+ 21% {
+ opacity: 0;
+ }
+ 24% {
+ opacity: 0;
+ }
+ 25% {
+ left: -1100px; opacity: 1;
+ }
+ 45% {
+ left: -1100px; opacity: 1;
+ }
+ 46% {
+ opacity: 0;
+ }
+ 48% {
+ opacity: 0;
+ }
+ 50% {
+ left: -2200px; opacity: 1;
+ }
+ 70% {
+ left: -2200px; opacity: 1;
+ }
+ 72% {
+ opacity: 0;
+ }
+ 74% {
+ opacity: 0;
+ }
+ 75% {
+ left: -3300px; opacity: 1;
+ }
+ 95% {
+ left: -3300px; opacity: 1;
+ }
+ 97% {
+ left: -3300px; opacity: 0;
+ }
+
+ 100% {
+ left: 0; opacity: 0;
  }
 }
 </style>
@@ -275,7 +275,7 @@ body, html {
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
 <a href="/login" class="w3-bar-item w3-button"><i class="fa fa-user"></i> LOGIN</a>
 </nav>
- 
+
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <a href = "https://www.facebook.com/aziiz.pranaja.1"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <a href = "https://www.instagram.com/aziizpranaja/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
@@ -287,7 +287,7 @@ body, html {
     <img src="{{ ('assets/img/gambar2.jpg') }}" alt="Gambar 1">
     <img src="{{ ('assets/img/gambar3.jpg') }}" alt="Gambar 2">
     <img src="{{ ('assets/img/gambar1.jpg') }}" alt="Gambar 3">
-  </div>  
+  </div>
 </div>
 
 
@@ -304,7 +304,7 @@ body, html {
     <a href = "https://www.instagram.com/aziizpranaja/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   </div>
 </footer>
- 
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
